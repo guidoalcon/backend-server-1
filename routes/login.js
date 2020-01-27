@@ -28,7 +28,7 @@ async function verify(token) {
 
   return {
     nombre:payload.name,
-    email.payload.email,
+    email:payload.email,
     img: payload.picture,
     google:true,
     //payload
